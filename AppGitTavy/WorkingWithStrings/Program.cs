@@ -12,6 +12,8 @@ namespace WorkingWithStrings
             Console.WriteLine($"index of a: {myString.IndexOf('a')}");
             Console.WriteLine($"last index of a: {myString.LastIndexOf('a')}");
 
+            Console.WriteLine("Salutare!");
+
             string mere = myString.Substring(9, 4);
             Console.WriteLine(mere);
 
